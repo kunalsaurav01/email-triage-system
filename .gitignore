@@ -1,0 +1,30 @@
+# Email Triage System - Git Ignore File
+
+# Configuration files with secrets
+config.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Generated files
+email_triage_log_*.csv
+analytics_report_*.json
+demo_*.csv
+demo_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
